@@ -1,0 +1,7 @@
+goto  "chrome>more tools>>developer tools>console"
+and then write the following code.
+
+
+
+var original = Runner.prototype.gameover
+Runner.prototype.gameover = function(){}
